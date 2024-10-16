@@ -14,9 +14,9 @@ int HRA = 10*salary/100;
 int DA = 5*salary/100;
 int TA = 8*salary/100;
 
-int gross-salary = salary + HRA + DA + TA;
+int gross_salary = salary + HRA + DA + TA;
 
-cout << "Gross salary : " <<  gross-salary ;
+cout << "Gross salary : " <<  gross_salary ;
 
    
 

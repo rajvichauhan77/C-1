@@ -20,17 +20,14 @@ int main(){
         
     }
 
-   
-    
 
+    cout <<  " Negative elements from an Array: " << endl ;
     for(int i=0; i<size; i++){
-        // cout << a[i] << " ";
-        if(i < 0){
-            cout << a[i] << " " ;
+        
+        if(a[i] < 0){
+            cout << a[i] << ", ";
         }
-        else{
-            cout << " " ;
-        }
+       
     }
    
     cout << endl;
